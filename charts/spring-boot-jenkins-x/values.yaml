@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.108.10.133:5000/didiladi/spring-boot-jenkins-x
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: spring-boot-jenkins-x
